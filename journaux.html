@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Journaux – 9 Mois en Collège</title>
+<link rel="icon" href="assets/logo-simple.png">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="ad">
+  <div class="ad-in">
+    <div class="offer"><span class="tag">Offre</span><b>Tout débloquer : 0,50 € une seule fois</b>
+      <small>Paiement unique pour débloquer tous les journaux actuels (hors futures éditions).</small>
+      <button class="btn" onclick="acheterTout()">Débloquer pour 0,50 €</button></div>
+    <div class="offer"><span class="tag">Offre</span><b>9 Mois en Collège Plus : 0,50 € / an</b>
+      <small>Renouvelé automatiquement chaque année : tous les journaux sont toujours débloqués, y compris les nouveaux.</small>
+      <button class="btn" onclick="abonnementPlus()">S'abonner à Plus</button></div>
+  </div>
+</div>
+<header class="nav">
+  <a href="index.html"><img src="assets/logo.png" alt="9 Mois en Collège – Informer, éclairer, rassembler"></a>
+  <nav><a href="index.html">Accueil</a><a href="journaux/index.html" class=on>Journaux</a><a href="apropos/index.html">À propos</a><a href="contact/index.html">Contact</a></nav>
+</header>
+<main>
+<h1>Les journaux en ligne</h1>
+<p>Chaque journal se débloque pour <b>0,50 €</b>, ou tous d'un coup grâce aux offres en haut de page.</p>
+<div id="liste">
+  <!-- Les journaux seront ajoutés ici. Exemple de carte :
+  <div class="card"><img src="..."><b>Titre</b><button class="btn" onclick="acheterJournal('n1-2026')">Débloquer pour 0,50 €</button></div> -->
+  <div class="card empty">
+    <div class="big">📭</div>
+    <h2>Actuellement vide</h2>
+    <p>Aucun journal n'est disponible pour le moment. Revenez bientôt !</p>
+  </div>
+</div>
+</main>
+<footer>
+  <img src="assets/logo-simple.png" alt="">
+  © 2026 9 Mois en Collège · Le journal des collégiens, par les collégiens · neufmoisjournal.dpdns.org
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
